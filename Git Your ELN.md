@@ -1,12 +1,7 @@
-> **“How to Use GitHub as Your Electronic Lab Notebook (ELN)”**
+# **“How to Use GitHub as Your Electronic Lab Notebook (ELN)”**
 
----
-
-```markdown
-# How to Use GitHub as Your Electronic Lab Notebook (ELN)
-
-**Audience:** New lab members (undergraduate, graduate, postdoc)  
-**Goal:** Learn how to document experimental procedures using GitHub as an electronic lab notebook (ELN)
+##**Audience:** New lab members (undergraduate, graduate, postdoc)  
+## **Goal:** Learn how to document experimental procedures using GitHub as an electronic lab notebook (ELN)
 
 ---
 
@@ -18,9 +13,9 @@ GitHub helps us:
 - Collaborate without overwriting each other’s work
 - Meet reproducibility and data-sharing expectations
 
-**Important:**  
+### **Important:**  
 GitHub is where we document *what we did*, *why we did it*, and *where the data lives* —  
-**NOT where large raw data files are stored.**
+### **NOT where large raw data files are stored.**
 
 ---
 
@@ -266,13 +261,5 @@ Welcome to the lab 🧪
 
 ---
 
-## 🔧 Optional Add-Ons (Highly Recommended)
 
-If you want, I can also:
-- Write a **1-page “GitHub for Wet Lab Folks” cheat sheet**
-- Create a **“What goes in notebooks vs protocols vs analysis” page**
-- Add screenshots (GitHub Desktop workflow)
-- Write a **lab policy page** that pairs with this protocol
-
-Just tell me what you want next.
 ```
