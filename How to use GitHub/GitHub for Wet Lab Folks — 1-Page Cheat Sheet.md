@@ -1,4 +1,3 @@
-```markdown
 # GitHub for Wet Lab Folks — 1-Page Cheat Sheet
 
 **Purpose:**  
