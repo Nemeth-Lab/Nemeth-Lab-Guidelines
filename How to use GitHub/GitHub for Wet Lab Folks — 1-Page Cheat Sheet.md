@@ -177,13 +177,3 @@ Welcome to the lab!
 
 ```
 
----
-
-If you want, I can also:
-- Add **screenshots** (GitHub Desktop workflow)
-- Create a **laminated bench-side version**
-- Write a **“What to write when nothing worked” guide**
-- Customize this for **undergrads vs grad students**
-
-Just tell me what you’d like next.
-```
