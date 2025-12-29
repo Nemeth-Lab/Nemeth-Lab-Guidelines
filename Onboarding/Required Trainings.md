@@ -1,6 +1,8 @@
 # Lab Orientations and Certifications
 
 **Required of all FAU students and personnel working in laboratories**
+### _How to complete this form_
+**To complete this form,** download the raw file, open it in your text editor that can read markdown (We use RStudio), fill out the document, Create an issue called `yourname_monthyear_trainings` in the "Lab Managing" Project and submit this final document there. Any changes to this document should be noted in the comments of the original issue"
 
 ---
 
@@ -61,9 +63,6 @@ You must have a valid FAU email and be an active student or employee.
 * Save this checklist sheet.
 * Save **all training certificates**.
 * This information is required by your **PI/supervisor** to add you to **BioRaft** and to lab research protocols.
-
-📧 **Please forward a copy of the completed list and all training certificates to:**
-**Dan Nemeth** — [nemethd@fau.edu](mailto:nemethd@fau.edu)
 
 ---
 
