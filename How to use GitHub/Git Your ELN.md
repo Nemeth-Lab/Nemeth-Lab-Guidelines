@@ -1,6 +1,5 @@
 # **“How to Use GitHub as Your Electronic Lab Notebook (ELN)”**
 
-##**Audience:** New lab members (undergraduate, graduate, postdoc)  
 ## **Goal:** Learn how to document experimental procedures using GitHub as an electronic lab notebook (ELN)
 
 ---
@@ -30,33 +29,7 @@ You will mainly use:
 
 ---
 
-## Repository Layout (What Goes Where)
-
-Every project repository follows the same structure:
-
-```
-
-project-name/
-
-├── notebooks/     ← your daily experiment entries
-
-├── protocols/     ← step-by-step procedures (like this one)
-
-├── data/          ← small processed data + links to raw data
-
-├── analysis/      ← scripts and figures
-
-└── README.md
-
-```
-
-You will mostly work in:
-- `notebooks/`
-- `protocols/`
-
----
-
-## Step 1: Get Access to the Repository
+## Step 1: Get Access to the Organization Repository
 
 1. Accept the GitHub invitation sent by the lab
 2. Log in at https://github.com
@@ -67,56 +40,34 @@ If you are unsure which repository to use, ask before starting.
 
 ---
 
-## Step 2: Create a New Experiment Notebook Entry
+## Step 2: Identify the Projects and Issues Tabs
 
-Every experiment gets its **own file**.
+Every experiment gets its **own issue and folder**.
 
 ### File naming format
 ```
-
-YYYY-MM-DD_short_description.md
-
+<PROJECT#>_<DECIMAL>_<DATE>_<INITIALS>.md
 ```
 
 ### Example
 ```
 
-2025-03-18_fear_conditioning_training.md
+107_3_01062025_DN.md
 
 ````
 
 ---
 
-## Step 3: Start with the ELN Template
+## Step 3: Make an issue using the Issue Templates
 
-1. Go to the `templates/` folder
-2. Copy `eln_template.yml`
-3. Paste it at the **top of your new notebook file**
-4. Fill in what you know — use `NA` if something does not apply
+1. Go to the issues tab
+2. Find the appropriate experiment (i.e. Issue) you are working on.
+3. Create a "sub-issue" underneath the main experimental issue.
+4. Use the "Experimenal Step" template and fill out the appropriate information.
 
-Example:
+`We will edit the templates as needed to fit our workflows`
 
-```markdown
----
-eln_version: "1.0"
-experiment:
-  title: "Fear conditioning training"
-  date:
-    start: "2025-03-18"
-  researcher:
-    name: "Your Name"
-  project: "Project Name"
----
-
-## Notes
-(Your notes go here)
-````
-
-Do **not** delete fields — just fill them in.
-
----
-
-## Step 4: Link to the Correct Protocol
+## Step 4: Link to the Correct Protocol (This is still being optimized/tested)
 
 Do **not** rewrite protocols in your notebook.
 
@@ -164,8 +115,9 @@ Instead, write exactly where they are stored:
 
 ```markdown
 ## Data Location
-- Raw data: Lab server → `/mnt/behavior/2025_03_18/`
+- Raw data: Lab hard drive1 → `/mnt/behavior/2025_03_18/`
 - Processed data: `data/processed/freezing_summary.csv`
+- Sent via Teams on YYYY-MM-DD to DN. 
 ```
 
 If data is missing or delayed, say so.
@@ -197,20 +149,13 @@ If data is missing or delayed, say so.
 
 ## Step 8: Updating an Experiment
 
-You may update the same notebook file over multiple days.
+You may update an issue file over multiple days.
 
 Each update should:
-
+* Be a new "sub-issue"
 * Add new dates under a new header
 * Never delete old entries
-
-Example:
-
-```markdown
-## 2025-03-19 – Scoring
-- Video files uploaded
-- Freezing manually scored
-```
+* Reference the original issue (as the # commit; e.g. #20)
 
 GitHub automatically keeps the full history.
 
@@ -239,9 +184,9 @@ Ask your mentor or PI if:
 
 ---
 
-## Final Checklist Before You Leave the Lab
+## Final Daily Checklist Before You Leave the Lab
 
-* [ ] Notebook entry created
+* [ ] Notebook/Issue entry created
 * [ ] Protocol referenced
 * [ ] Deviations noted (if any)
 * [ ] Data location recorded
@@ -254,8 +199,6 @@ Ask your mentor or PI if:
 > If it’s not in GitHub, it didn’t happen.
 
 Your notebook protects **you**, the **lab**, and the **science**.
-
-Welcome to the lab 🧪
 
 ```
 
