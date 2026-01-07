@@ -14,3 +14,5 @@ Through our studies, we aim to shed light on the nuanced mechanisms of IL-1 sign
 Our lab's pursuit is not just academic; it holds significant implications for potential therapeutic interventions aimed at modulating IL-1 signaling pathways to address neurological conditions and improve overall brain health.
  
 
+## Source for Guidelines
+Lots of the structure and working in this lab manual was created using the online, and freely available, lab manual from [Aly Lab](https://bpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/2/1249/files/2023/04/aly-lab-manual.pdf) and [Peele Lab](https://bpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/2/1249/files/2023/04/Jonathan-Peelle-Washington-University-in-Saint-Louis.pdf)
