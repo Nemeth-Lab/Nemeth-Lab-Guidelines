@@ -1,4 +1,4 @@
-# Mandatory Readings: Interleukin-1 Signaling in the Brain
+# Mandatory Readings: 
 
 ## Welcome. 
 
